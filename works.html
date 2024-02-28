@@ -27,13 +27,13 @@
     <h1 class="page-title">Works</h1>
     
     <div class="filter-buttons">    
-        <button onclick="filterWorks('all')" class="button-30">All</button>
-        <button onclick="filterWorks('flyer')" class="button-30">Flyer Design</button>
-        <button onclick="filterWorks('save')" class="button-30">Save the date</button>
-        <button onclick="filterWorks('logo')" class="button-30">Logo Design</button>
-        <button onclick="filterWorks('poster')" class="button-30">Poster Design</button>
-        <button onclick="filterWorks('magazine')" class="button-30">Magazine</button>
-        <button onclick="filterWorks('bullet')" class="button-30">Bulletin</button>
+        <button onclick="filterWorks('all')" class="button-30 active" data-category="all">All</button>
+        <button onclick="filterWorks('flyer')" class="button-30" data-category="flyer">Flyer Design</button>
+        <button onclick="filterWorks('save')" class="button-30" data-category="save">Save the date</button>
+        <button onclick="filterWorks('logo')" class="button-30" data-category="logo">Logo Design</button>
+        <button onclick="filterWorks('poster')" class="button-30" data-category="poster">Poster Design</button>
+        <button onclick="filterWorks('magazine')" class="button-30" data-category="magazine">Magazine</button>
+        <button onclick="filterWorks('bullet')" class="button-30" data-category="bullet">Bulletin</button>
     </div>
     
     
@@ -461,7 +461,7 @@
         </div>
         <p>Copyright ©2024, All rights reserved.</p>
     </footer>
-
+    <button id="scrollToTopButton" title="Go to top" onclick="topFunction()">↑</button>
 <script src="js/script.js"></script>
 </body>
 
