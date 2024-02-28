@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Abdul Basith</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="https://ucarecdn.com/34661382-e670-4ef0-9c9c-4932bb89d9ba/IMG_5382.PNG">
+            <a href="#">Basith Manoor</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a class="selected" href="works.html">Works</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <h1 class="page-title">Works</h1>
+    
+    <div class="filter-buttons">    
+        <button onclick="filterWorks('all')" class="button-30">All</button>
+        <button onclick="filterWorks('flyer')" class="button-30">Flyer Design</button>
+        <button onclick="filterWorks('save')" class="button-30">Save the date</button>
+        <button onclick="filterWorks('logo')" class="button-30">Logo Design</button>
+        <button onclick="filterWorks('poster')" class="button-30">Poster Design</button>
+        <button onclick="filterWorks('magazine')" class="button-30">Magazine</button>
+        <button onclick="filterWorks('bullet')" class="button-30">Bulletin</button>
+    </div>
+    
+    
+    <div class="content">
+        <div class="works-list">
+            <div class="item save">
+                <img src="https://ucarecdn.com/5d8672f3-235a-472a-ac7e-2a9e9b2a7e95/faris.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/6764ba84-dd45-411f-bc7e-8b014efd6de4/basma.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item flyer">
+                <img src="https://ucarecdn.com/e571e459-5001-4b71-99bf-0ef18758ee47/incare.jpg">
+                <div class="details">
+                    <h3>Clinical Psychology</h3>
+                    <p>offline internship in clinical psychology at Incare psychological wellbeing center Malappuram,Kerala</p>
+                </div>
+            </div>
+            <div class="item flyer">
+                <img src="https://ucarecdn.com/4d20d434-8f62-41cd-b229-feb9bf04fe69/kgadmission.jpg">
+                <div class="details">
+                    <h3>K.G Admission KYHSS</h3>
+                    <p>K.G Admission Started 2024-25 at KYHSS Kattilangadi,Athavanad</p>
+                </div>
+            </div>
+            <div class="item logo">
+                <img src="https://ucarecdn.com/460a9363-5711-417e-927d-b1a16536c50b/21022459.jpg">
+                <div class="details">
+                    <h3>Jann Ki Baat</h3>
+                    <p>Logo created for college fest at grace valley Maravattom,Kadampuzha</p>
+                </div>
+            </div>
+            <div class="item logo">
+                <img src="https://ucarecdn.com/061561d0-fdfd-4477-a76b-384183b24f37/41adyayam.jpg">
+                <div class="details">
+                    <h3>41 aam  Adhyayam</h3>
+                    <p>Logo created for college union inagural campaign at PMSA Wafy College Kattilangadi,Athavanad</p>
+                </div>
+            </div>
+            <div class="item flyer">
+                <img src="https://ucarecdn.com/79ca4d8f-e454-4102-ae14-4c1b156b6e6d/ADMISSION4.jpg">
+                <div class="details">
+                    <h3>Irshadiyya Admission Started</h3>
+                    <p>Irshadiyya Admission Started under Jamia Junior College at Kumeranellur,Palakkad</p>
+                </div>
+            </div>
+            <div class="item flyer">
+                <img src="https://ucarecdn.com/3fd8f3ad-4679-4ca7-b313-b3036faecabe/incare.jpg">
+                <div class="details">
+                    <h3>Clinical Psychology</h3>
+                    <p>internship 15 days program from Jan 20 - Feb 3rd at Incare psychological wellbeing center Malappuram,Kerala</p>
+                </div>
+            </div>
+            <div class="item flyer">
+                <img src="https://ucarecdn.com/3850cf14-d1b5-43ed-8310-e1bee55150ff/akbartravels.jpg">
+                <div class="details">
+                    <h3>Akbar Travels</h3>
+                    <p>Akbar Travels Kuttippuram quarantine package cochin-sharjah 15th july 2021</p>
+                </div>
+            </div>
+            <div class="item flyer">
+                <img src="https://ucarecdn.com/8b2b5f80-5b8b-478b-9bf0-c9cef0052e22/alfitra.jpg">
+                <div class="details">
+                    <h3>Samastha Fadhila</h3>
+                    <p>Admission Started for Samastha Fadhila course at Al-Fithra womens college nellikurussi,Palakkad </p>
+                </div>
+            </div>
+            <div class="item flyer">
+                <img src="https://ucarecdn.com/8f8521f6-7097-41f4-99f2-b53077196a3a/schooladmissionpmsa.jpg">
+                <div class="details">
+                    <h3>K.G Admission PTM</h3>
+                    <p>K.G Admission Started 2024-25 at PTM Vettichira,Malappuram</p>
+                </div>
+            </div>
+            <div class="item flyer">
+                <img src="https://ucarecdn.com/0db8170d-a8a2-4a72-b8cc-c72657da54e9/flyerflex.jpg">
+                <div class="details">
+                    <h3>K.G Admission PTM</h3>
+                    <p>K.G Admission Started 2024-25 at PTM Vettichira,Malappuram</p>
+                </div>
+            </div>
+            <div class="item logo">
+                <img src="https://ucarecdn.com/34661382-e670-4ef0-9c9c-4932bb89d9ba/IMG_5382.PNG">
+                <div class="details">
+                    <h3>Digi Assist Hub</h3>
+                    <p>Logo created for Personal profile</p>
+                </div>
+            </div>
+            <div class="item logo">
+                <img src="https://ucarecdn.com/339d0ca6-42b6-4623-a025-cee999b9d83f/5g.png">
+                <div class="details">
+                    <h3>Mobile Shop Logo</h3>
+                    <p>Logo created for mobile shop at ponnani,Malappuram</p>
+                </div>
+            </div>
+            <div class="item logo">
+                <img src="https://ucarecdn.com/0768925c-9ae8-4b3d-8547-ab6008899ca8/fathabioon.jpg">
+                <div class="details">
+                    <h3>Fathabi'ooni</h3>
+                    <p>Logo created for college union Meelad campaign at PMSA Wafy college Kattilangadi,Athavanad</p>
+                </div>
+            </div>
+            <div class="item logo">
+                <img src="https://ucarecdn.com/ee709292-9453-4fb6-b96b-3f56555ef59a/kidsfest2.jpg">
+                <div class="details">
+                    <h3>Kids Fest</h3>
+                    <p>Logo created for KYHSS school Kids fest at kattilangadi, Malappuram</p>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/4e7a0662-e3e3-4245-bd53-68c306886813/hubaib.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/37f640ab-af9d-4723-929e-c3edcb7f4de1/shibilut.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/f11b1373-e238-4480-b26a-76524aba69e5/shaheer.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/5b25b22b-f9ad-4b81-ab61-64bf04729da0/Harshad.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/8558af7d-a452-4677-9387-945db2dd4736/faisal.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/8a41a93e-26de-44be-948c-ad2e94f4f9d1/Mustfafa.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/41e20fd1-1ed7-4f05-972a-657e1b7d0b57/SHABEER.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/f9a6a239-cbce-41e0-b406-5af8b9409732/muhsinamolu.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/bfd5ad6f-0f41-48b6-ab90-e80fcd8c4bc0/asif.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/c1364b8e-0610-4df1-ba43-57b61c1a1267/babyv.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <div class="item save">
+                <img src="https://ucarecdn.com/7c4155c1-2b05-487b-80f4-98e87406aa09/mufeeda.jpg">
+                <div class="details">
+                    <h3>Save The Date</h3>
+                </div>
+            </div>
+            <!----------------------------------------------------------Poster-------------------------------------------------------------->
+            <div class="item poster">
+                <img src="https://ucarecdn.com/6a8d2ded-e80a-45b5-8fdf-44366602aea7/skssfsslcwinnerposter.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/4aedffd2-b2d2-4465-b027-791af1894e72/thinktalkfinaslcopy.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/59e24093-4026-49ee-ac8e-0a5a4bf5bd7a/blockinaugucopy.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/4dc7eaf9-99eb-42f9-92c1-2cc103430a24/KIDSFESTcopy.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/2b071239-b7d6-4b63-a245-962084657c0e/MSFFOOTBALLPRAVAJANAM.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/215545cd-74c2-41b2-a719-47048c700452/2.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/3045b4aa-d4ee-443f-a113-82bcb2cd5604/SPORTScopy.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/ca88a2d0-b586-42a0-87ae-fc5dad00c67d/dfkad.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/05903520-8b2e-4c27-8d2a-feea5e0399fa/GENTECH1copy1.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/22708e44-c164-407a-aec4-f5860ca1ac87/dsa.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/033e3642-f28b-43ca-b505-a39ebf18fd1f/fsdfa.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/857fc4d0-f518-4c1c-80c0-06045272f512/FAMILYMEETcopyposter.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/a2918bda-0ba0-4f92-bb87-db36607a0333/musabaqasksbv.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/9cd7d912-e66c-4e11-bd4e-56ae424f65a8/sdgsd.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/19ab33c8-0736-4c7a-a3bf-caacf5642cd4/inauguration.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/cf4e7721-6653-4f31-a11f-907cf2b7ed88/irshadiyyavehicle72hight.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/aec4ae9a-3b37-4edb-be16-65471451c73a/Irshadiyya5x3skjm.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/e58df275-6e56-411b-a2d8-f2f5e55b43db/sda.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/0dc01735-8ac3-4d3c-b14e-d9cad17e32d0/fasf.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/19a61265-7520-46b4-a738-bb59be4b40ff/Snapinsta_app_429479943_1936964973371409_1776105818345645438_n_1080.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/ff25af9a-8733-45f7-bb4f-66406eb49059/asfdas.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/e6b075de-d79f-484c-bedb-ff11a22f5092/ADMISSION2.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/93d4f910-f618-4c6b-9325-758874365cf3/sad.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/da8e8ae3-e5ff-4dbf-a370-be2e33410170/mobileshoppostercopy.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/9bc78abd-170e-4eae-975c-a3af1566c93d/ISLAMICGALLERYTHUMBNAIL.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/c442e0a0-d7d2-46d0-8357-67308ae6fe6c/magazinwishes.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <div class="item poster">
+                <img src="https://ucarecdn.com/c1b41460-fc34-4454-a157-7b7f7e047fed/VEHICLE.jpg">
+                <div class="details">
+                    <h3>Poster</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <!----------------------------------------------------------Magazine-------------------------------------------------------------->
+            <div class="item magazine">
+                <img src="https://ucarecdn.com/9a790355-e3a8-461a-81a7-21b7016c9dc4/magazine.jpg">
+                <div class="details">
+                    <h3>Magazine</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+            <!----------------------------------------------------------Bullet-------------------------------------------------------------->
+            <div class="item bullet">
+                <img src="https://ucarecdn.com/e47c91c6-6587-442e-b8e3-a52ba688bcda/bullet.jpg">
+                <div class="details">
+                    <h3>Wafy Bulletin</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                        aliquam illo maxime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="socials">
+            <a href="https://www.facebook.com/abdulbasithpv.manoor.7?mibextid=LQQJ4d"><i class='bx bxl-facebook-square'></i></a>
+            <a href="https://www.instagram.com/digiassist_hub?igsh=OGd1eGMxanp6ZmUy&utm_source=qr"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/basith-manoor-10150b261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class='bx bxl-linkedin-square'></i></a> 
+        </div>
+        <p>Copyright ©2024, All rights reserved.</p>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
