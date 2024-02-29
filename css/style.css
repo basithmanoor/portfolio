@@ -445,6 +445,10 @@ footer p{
     height: auto;
 }
 
+.about .ps {
+    width: 35px;
+}
+
 /* Styles for the scroll to top button */
 #scrollToTopButton {
     display: none; /* Initially hidden */
