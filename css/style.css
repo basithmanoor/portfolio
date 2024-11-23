@@ -41,8 +41,8 @@ nav {
     font-weight: 600;
     position: fixed;
     top: 0;
-    width: 100%; 
-    z-index: 999; 
+    width: 100%;
+    z-index: 999;
 }
 
 
@@ -196,7 +196,7 @@ nav .nav-links a.selected{
 .filter-buttons {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
 .filter-buttons button.active {
@@ -248,6 +248,13 @@ nav .nav-links a.selected{
   transform: translateY(2px);
 }
 
+.works-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .featured .item,
 .works-list .item{
     display: flex;
@@ -255,6 +262,10 @@ nav .nav-links a.selected{
     margin-bottom: 30px;
     padding-bottom: 30px;
     border-bottom: 2px solid #e0e0e0;
+}
+
+.works-list .item .details {
+    display: none;
 }
 
 .featured .item img,
@@ -335,11 +346,11 @@ footer p{
 }
 
 .content{
-    padding: 30px 148px 60px;
+    padding: 30px 200px 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .content .work-info{
@@ -465,14 +476,14 @@ footer p{
     font-size: 24px;
     z-index: 999;
   }
-  
+
   #scrollToTopButton:hover {
     background-color: #e4933d;
   }
-  
+
 
 @media screen and (max-width: 1400px) {
-    
+
     nav{
         padding: 20px 60px;
     }
@@ -497,7 +508,7 @@ footer p{
 }
 
 @media screen and (max-width: 1200px) {
-    
+
     nav{
         padding: 20px 40px;
     }
@@ -556,7 +567,7 @@ footer p{
 }
 
 @media screen and (max-width: 992px) {
-    
+
     nav{
         padding: 20px;
     }
@@ -617,6 +628,10 @@ footer p{
         padding: 0 20px 30px;
     }
 
+    .works-list .item .details {
+        display: block;
+    }
+
     .featured .item img,
     .works-list .item img{
         width: 100%;
@@ -659,7 +674,7 @@ footer p{
 }
 
 @media screen and (max-width: 768px) {
-    
+
     nav{
         justify-content: center;
     }
